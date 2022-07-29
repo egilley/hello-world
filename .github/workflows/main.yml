@@ -28,7 +28,7 @@ jobs:
        uses: anthonyvscode/newman-action@v1
        with:
           apiKey: ${{ secrets.postmanApiKey }}
-          collection: bab22df3-0221-0251-5849-b34eab2bfa49
+          collection: 719256-2cd2b658-2d40-47fd-906f-9415afe652c4
           reporters: cli
    
      - name: Output summary to console
